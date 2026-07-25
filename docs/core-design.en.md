@@ -1,6 +1,6 @@
 # Core Design and Research Boundaries
 
-**Languages:** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md)
+**Languages:** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md) · [Français](core-design.fr.md) · [Español](core-design.es.md)
 
 ## Design problems
 
