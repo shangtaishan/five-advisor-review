@@ -1,0 +1,4 @@
+interface:
+  display_name: "五顾问审查"
+  short_description: "用五种隔离视角压力测试想法，并给出证据化裁决和下一步"
+  default_prompt: "使用 $five-advisor-review 审查这个想法：……（自动按风险选择快速或完整模式；只有我明确要求时才启用真实多代理或生成 HTML 报告。）"
