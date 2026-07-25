@@ -1,5 +1,7 @@
 # 贡献指南
 
+**语言 / Languages / 言語：** [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md)
+
 欢迎贡献真实案例、反例、评测方法、输出改进和适配不同语言/行业的版本。
 
 ## 提交前自检
