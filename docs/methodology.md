@@ -1,6 +1,6 @@
 # 方法论：从多角色回答到决策压力测试
 
-**语言 / Languages / 言語：** [中文](methodology.md) · [English](methodology.en.md) · [日本語](methodology.ja.md)
+**语言 / Languages / 言語：** [中文](methodology.md) · [English](methodology.en.md) · [日本語](methodology.ja.md) · [Français](methodology.fr.md) · [Español](methodology.es.md)
 
 ## 目标
 
