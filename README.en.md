@@ -1,12 +1,12 @@
 # Five-Advisor Review
 
-**Languages:** [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+**Languages:** [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Español](README.es.md)
 
 A multi-perspective decision stress-test Skill for ideas, proposals, topics, decisions, and business concepts.
 
 It does not treat agreement among several advisors as fact, nor does it pretend that five role prompts are five independent models. The framework first produces isolated first-round judgments, then runs anonymous peer review and a consensus stress-test. A chair then issues a reversible recommendation paired with a validation action.
 
-> The Chinese README is the canonical version. The README, methodology, core design, and contribution guide are maintained in Chinese, English, and Japanese. When a feature or methodological change is material, update all three corresponding documents in the same change.
+> The Chinese README is the canonical version. The README, methodology, core design, and contribution guide are maintained in Chinese, English, Japanese, French, and Spanish. When a feature or methodological change is material, update all five corresponding documents in the same change.
 
 ## What it solves
 
