@@ -1,6 +1,6 @@
 # 核心设计与研究边界
 
-**语言 / Languages / 言語：** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md)
+**语言 / Languages / 言語：** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md) · [Français](core-design.fr.md) · [Español](core-design.es.md)
 
 ## 设计问题
 
