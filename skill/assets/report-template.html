@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>五顾问审查报告</title>
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--fg:#e7e9ee;--muted:#9aa3b2;--line:#262b36;--accent:#6ea8fe;--warn:#ffb454;--bad:#ff6b6b;--good:#5bd6a0}
+  @media (prefers-color-scheme:light){:root{--bg:#f6f7f9;--card:#fff;--fg:#1a1d23;--muted:#5b6472;--line:#e3e7ee;--accent:#2f6fed;--warn:#b87400;--bad:#d13b3b;--good:#1f9d6b}}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;padding:32px 16px}
+  .wrap{max-width:880px;margin:0 auto} h1{font-size:24px;margin:0 0 4px} .sub,.muted{color:var(--muted)} .sub{margin:0 0 24px;font-size:13px}
+  .verdict,section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}.verdict{display:flex;gap:14px;align-items:center}.decision{font-size:20px;font-weight:700}
+  .pill{font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;border:1px solid var(--line)}.pill.high{color:var(--good)}.pill.mid{color:var(--accent)}.pill.low{color:var(--warn)}.pill.blocked{color:var(--bad)}
+  h2{font-size:16px;margin:0 0 12px}.advisor{border-left:3px solid var(--accent);padding:8px 0 8px 14px;margin:10px 0}.dissent{border-left-color:var(--bad)}.blocker{border-left-color:var(--warn)}ul{margin:8px 0;padding-left:20px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>五顾问审查报告</h1>
+  <p class="sub">生成时间：{{DATE}} · 决策：{{DECISION}}</p>
+  <div class="verdict"><div class="decision">{{CONCLUSION}}</div><span class="pill {{CONF_CLASS}}">{{CONFIDENCE}}</span></div>
+  <section><h2>审查底稿</h2>{{BRIEF}}</section>
+  <section><h2>五位顾问的独立意见</h2>{{ADVISORS}}</section>
+  <section><h2>匿名交叉审查</h2>{{CROSS}}</section>
+  <section><h2>共识压力测试</h2>{{STRESS}}</section>
+  <section>
+    <h2>主席裁决</h2><p><strong>分歧性质：</strong>{{NATURE}}</p><p><strong>决定性依据：</strong></p><ul>{{BASIS}}</ul><p><strong>阻塞项：</strong></p><ul class="blocker">{{BLOCKERS}}</ul><p><strong>改进项：</strong></p><ul>{{REFINEMENTS}}</ul><p><strong>你将失去什么：</strong>{{LOSE}}</p><p><strong>验证标准：</strong></p><ul>{{VERIFY}}</ul><p><strong>今天第一步：</strong>{{FIRST_STEP}}</p><p><strong>下一检查点：</strong>{{CHECKPOINT}}</p><p><strong>反转条件：</strong>{{REVERSE}}</p>
+  </section>
+  <p class="muted">共识非证据，验证才提高可信度；同模型视角不构成多模型独立。</p>
+</main>
+</body>
+</html>
