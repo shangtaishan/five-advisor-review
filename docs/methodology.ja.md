@@ -1,6 +1,6 @@
 # 方法論：ロール回答から意思決定ストレステストへ
 
-**言語：** [中文](methodology.md) · [English](methodology.en.md) · [日本語](methodology.ja.md)
+**言語：** [中文](methodology.md) · [English](methodology.en.md) · [日本語](methodology.ja.md) · [Français](methodology.fr.md) · [Español](methodology.es.md)
 
 ## 目的
 
