@@ -1,6 +1,6 @@
 # Contribution Guide
 
-**Languages:** [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md)
+**Languages:** [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md) · [Français](CONTRIBUTING.fr.md) · [Español](CONTRIBUTING.es.md)
 
 Contributions of real cases, counterexamples, evaluation methods, output improvements, and adaptations for other languages or industries are welcome.
 
@@ -12,7 +12,7 @@ Contributions of real cases, counterexamples, evaluation methods, output improve
 - Do not invent a minority view merely for balance; when none exists, report the strongest counterargument check.
 - Do not let the chair introduce factual premises absent from the first round and cross-review.
 - Keep the sequence: independent advisor views → cross-review → chair decision.
-- When changing a public explanatory document, update its Chinese, English, and Japanese counterparts in the same change.
+- When changing a public explanatory document, update its Chinese, English, Japanese, French, and Spanish counterparts in the same change.
 
 ## Recommended contributions
 
