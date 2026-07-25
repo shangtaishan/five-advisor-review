@@ -1,5 +1,7 @@
 # 核心设计与研究边界
 
+**语言 / Languages / 言語：** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md)
+
 ## 设计问题
 
 “多智能体/多角色审查”常见的失效模式包括：
