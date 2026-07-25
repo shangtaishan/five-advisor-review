@@ -1,6 +1,6 @@
 # 贡献指南
 
-**语言 / Languages / 言語：** [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md)
+**语言 / Languages / 言語：** [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md) · [Français](CONTRIBUTING.fr.md) · [Español](CONTRIBUTING.es.md)
 
 欢迎贡献真实案例、反例、评测方法、输出改进和适配不同语言/行业的版本。
 
@@ -12,6 +12,7 @@
 - 不为了“平衡”而编造少数意见；不存在时写明最强反驳的检查结果。
 - 不让主席引入首轮和互审中没有出现的新事实前提。
 - 保持“顾问先独立发言 → 互审 → 主席最后裁决”的顺序。
+- 修改公开说明文档时，在同一提交中同步更新中文、英文、日文、法文、西班牙文对应文件。
 
 ## 推荐贡献类型
 
