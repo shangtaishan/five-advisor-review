@@ -1,6 +1,6 @@
 # コア設計と研究上の境界
 
-**言語：** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md)
+**言語：** [中文](core-design.md) · [English](core-design.en.md) · [日本語](core-design.ja.md) · [Français](core-design.fr.md) · [Español](core-design.es.md)
 
 ## 設計上の問題
 
