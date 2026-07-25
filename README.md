@@ -1,10 +1,12 @@
 # Five-Advisor Review
 
+**语言 / Languages / 言語：** [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+
 一个面向观点、方案、选题、决策与商业创意的多视角决策压力测试 Skill。
 
 它不把“多位顾问同意”当作事实，也不把五种角色伪装成五个独立模型。框架要求先形成隔离的首轮判断，再进行匿名互审、共识压力测试，最后由主席给出带验证动作的可逆决策建议。
 
-> 中文优先。English readers can start with the short overview below and the structured documents in `docs/`.
+> 本项目以中文 README 为基准版本；README、方法论、核心设计和贡献指南会同步维护中文、英文、日文三个版本。功能或方法论发生实质变化时，请在同一提交中更新三种语言的对应文件。
 
 ## 它解决什么问题
 
@@ -41,10 +43,14 @@
 │   └── assets/report-template.html
 ├── docs/
 │   ├── methodology.md         # 方法论与流程
-│   └── core-design.md         # 核心设计、护栏与局限
+│   ├── methodology.en.md / .ja.md
+│   ├── core-design.md         # 核心设计、护栏与局限
+│   └── core-design.en.md / .ja.md
 ├── examples/
 │   └── b2b-pricing.md         # 完整模式的输入/输出骨架
-└── CONTRIBUTING.md
+├── CONTRIBUTING.md             # 中文贡献指南
+├── CONTRIBUTING.en.md
+└── CONTRIBUTING.ja.md
 ```
 
 ## 核心原则
@@ -64,6 +70,8 @@
 ## 英文概览
 
 Five-Advisor Review is a structured decision stress-test. It separates five reasoning methods, anonymizes peer review, tests whether consensus comes from one shared assumption, and requires an evidence-backed, reversible next step. It is not a voting system and does not claim that role prompts are independent models.
+
+完整英文版见 [README.en.md](README.en.md)，日文版见 [README.ja.md](README.ja.md)。
 
 ## 贡献
 
